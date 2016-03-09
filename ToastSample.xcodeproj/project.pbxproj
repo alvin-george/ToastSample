@@ -14,6 +14,7 @@
 		5D1B39351C8FFECD00735636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1B39331C8FFECD00735636 /* LaunchScreen.storyboard */; };
 		5D1B39401C8FFECD00735636 /* ToastSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B393F1C8FFECD00735636 /* ToastSampleTests.swift */; };
 		5D1B394B1C8FFECD00735636 /* ToastSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B394A1C8FFECD00735636 /* ToastSampleUITests.swift */; };
+		5D1B395B1C8FFF3600735636 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B395A1C8FFF3600735636 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5D1B39461C8FFECD00735636 /* ToastSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1B394A1C8FFECD00735636 /* ToastSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastSampleUITests.swift; sourceTree = "<group>"; };
 		5D1B394C1C8FFECD00735636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1B395A1C8FFF3600735636 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				5D1B392A1C8FFECD00735636 /* AppDelegate.swift */,
+				5D1B395A1C8FFF3600735636 /* Toast.swift */,
 				5D1B392C1C8FFECD00735636 /* ViewController.swift */,
 				5D1B392E1C8FFECD00735636 /* Main.storyboard */,
 				5D1B39311C8FFECD00735636 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D1B392D1C8FFECD00735636 /* ViewController.swift in Sources */,
+				5D1B395B1C8FFF3600735636 /* Toast.swift in Sources */,
 				5D1B392B1C8FFECD00735636 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
